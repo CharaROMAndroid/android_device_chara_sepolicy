@@ -38,6 +38,9 @@ ro.lineage.device                      u:object_r:custom_version_prop:s0
 # Force multi-window behavior
 ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact bool
 
+# Keychords without adb (3-button bug report)
+persist.init.keychords                 u:object_r:exported_keychords_prop:s0 exact bool
+
 # NFC
 persist.vendor.nfc.config_file_name    u:object_r:vendor_persist_nfc_prop:s0 exact string
 persist.vendor.nfc.fw_file_name        u:object_r:vendor_persist_nfc_prop:s0 exact string
