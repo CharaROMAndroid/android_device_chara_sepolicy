@@ -13,3 +13,6 @@ system_internal_prop(recovery_update_prop)
 
 # Keychords
 system_restricted_prop(exported_keychords_prop);
+
+# USB restrictions
+system_restricted_prop(trust_restrict_usb_prop);

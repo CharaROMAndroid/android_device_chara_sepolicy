@@ -19,6 +19,9 @@ ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
 
+# Current USB restriction setting, updated to match LineageSettings.Global.TRUST_RESTRICT_USB
+persist.init.trust_restrict_usb        u:object_r:trust_restrict_usb_prop:s0 exact int
+
 # Custom legal URL
 ro.crdroidlegal.url                    u:object_r:legal_url_prop:s0
 
