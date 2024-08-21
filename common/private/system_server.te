@@ -50,3 +50,7 @@ allow system_server ax_sandbox_vault_file:file create_file_perms;
 
 # Let system server set vbmeta prop
 set_prop(system_server, bootloader_prop)
+
+# Boot animation
+allow system_server bootanim_data_file:dir create_dir_perms;
+allow system_server bootanim_data_file:file create_file_perms;
