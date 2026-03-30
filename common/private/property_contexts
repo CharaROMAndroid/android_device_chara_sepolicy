@@ -12,7 +12,7 @@ vendor.camera.aux.packagelist          u:object_r:camera2_extensions_prop:s0
 vendor.camera.skip_unconfigure.packagelist  u:object_r:camera2_extensions_prop:s0
 
 # Custom legal URL
-ro.chararomlegal.url                    u:object_r:legal_url_prop:s0
+ro.crdroidlegal.url                    u:object_r:legal_url_prop:s0
 
 # Custom version (crdroid)
 ro.chararom.device                      u:object_r:custom_version_prop:s0
