@@ -17,7 +17,7 @@ ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
 
 # Custom legal URL
-ro.chararomlegal.url                    u:object_r:legal_url_prop:s0
+ro.crdroidlegal.url                    u:object_r:legal_url_prop:s0
 
 # Custom version (crdroid)
 ro.chararom.device                      u:object_r:custom_version_prop:s0
