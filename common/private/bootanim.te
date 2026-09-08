@@ -1,3 +1,5 @@
 # Bootanim
 allow bootanim bootanim_data_file:dir create_dir_perms;
 allow bootanim bootanim_data_file:file create_file_perms;
+
+dontaudit bootanim system_data_file:dir search;
