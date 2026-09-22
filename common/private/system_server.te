@@ -1,9 +1,5 @@
 allow system_server storage_stub_file:dir getattr;
 
-userdebug_or_eng(`
-    allow system_server adbroot_service:service_manager find;
-')
-
 add_service(system_server, ax_sandbox_service);
 
 # CachedAppOptimizer

@@ -15,6 +15,12 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/private
 
+# Only include adbroot sepolicy for userdebug/eng builds
+ifneq ($(filter userdebug eng,$(TARGET_BUILD_VARIANT)),)
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/lineage/sepolicy/common/private_debug
+endif
+
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/dynamic \
