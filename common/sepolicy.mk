@@ -25,7 +25,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/lineage/sepolicy/common/vendor
 endif
 
-ifneq ($(filter eng,$(TARGET_BUILD_VARIANT)),)
+ifneq ($(filter userdebug eng,$(TARGET_BUILD_VARIANT)),)
   SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
       device/lineage/sepolicy/common/private/adbroot_debug
 endif
