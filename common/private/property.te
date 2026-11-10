@@ -16,3 +16,6 @@ system_restricted_prop(exported_keychords_prop);
 
 # USB restrictions
 system_restricted_prop(trust_restrict_usb_prop);
+
+# Native debugging compatibility (Settings toggle, init applies yama ptrace_scope)
+system_restricted_prop(native_debug_prop)

@@ -87,3 +87,6 @@ vendor.usb.uvc.payload_transfer_size   u:object_r:usb_uvc_config_prop:s0
 
 # Boot animation
 persist.sys.bootanimation_style        u:object_r:bootanim_system_prop:s0 exact int
+
+# Native debugging compatibility
+persist.native_debug                   u:object_r:native_debug_prop:s0 exact bool
